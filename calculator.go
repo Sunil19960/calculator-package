@@ -10,7 +10,6 @@ import (
 //
 // Example usage:
 //
-// ```go
 // result, err := Add(3.5, 2.5)
 //
 //	if err != nil {
@@ -18,8 +17,6 @@ import (
 //	} else {
 //	    fmt.Println("Result:", result)
 //	}
-//
-// ```
 //
 // Output: Result: 6.0
 func Add(firstVal, secondVal float64) (float64, error) {
@@ -33,7 +30,6 @@ func Add(firstVal, secondVal float64) (float64, error) {
 //
 // Example usage:
 //
-// ```go
 // result, err := Subtract(10.5, 2.3)
 //
 //	if err != nil {
@@ -41,8 +37,6 @@ func Add(firstVal, secondVal float64) (float64, error) {
 //	} else {
 //	    fmt.Println("Result:", result)
 //	}
-//
-// ```
 //
 // Output: Result: 8.2
 func Subtract(firstVal, secondVal float64) (float64, error) {
@@ -55,7 +49,6 @@ func Subtract(firstVal, secondVal float64) (float64, error) {
 //
 // Example usage:
 //
-// ```go
 // result, err := Multiply(3.0, 4.0)
 //
 //	if err != nil {
@@ -63,8 +56,6 @@ func Subtract(firstVal, secondVal float64) (float64, error) {
 //	} else {
 //	    fmt.Println("Result:", result)
 //	}
-//
-// ```
 //
 // Output: Result: 12.0
 func Multiply(firstVal, secondVal float64) (float64, error) {
@@ -78,7 +69,6 @@ func Multiply(firstVal, secondVal float64) (float64, error) {
 //
 // Example usage:
 //
-// ```go
 // result, err := Divide(10.0, 2.0)
 //
 //	if err != nil {
@@ -86,8 +76,6 @@ func Multiply(firstVal, secondVal float64) (float64, error) {
 //	} else {
 //	    fmt.Println("Result:", result)
 //	}
-//
-// ```
 //
 // Output: Result: 5.0
 func Divide(firstVal, secondVal float64) (float64, error) {
@@ -104,7 +92,6 @@ func Divide(firstVal, secondVal float64) (float64, error) {
 //
 // Example usage:
 //
-// ```go
 // result, err := Modulus(10.0, 3.0)
 //
 //	if err != nil {
@@ -112,8 +99,6 @@ func Divide(firstVal, secondVal float64) (float64, error) {
 //	} else {
 //	    fmt.Println("Result:", result)
 //	}
-//
-// ```
 //
 // Output: Result: 1.0
 func Modulus(firstVal, secondVal float64) (float64, error) {
@@ -128,7 +113,6 @@ func Modulus(firstVal, secondVal float64) (float64, error) {
 //
 // Example usage:
 //
-// ```go
 // result, err := Square(4.0)
 //
 //	if err != nil {
@@ -136,8 +120,6 @@ func Modulus(firstVal, secondVal float64) (float64, error) {
 //	} else {
 //	    fmt.Println("Result:", result)
 //	}
-//
-// ```
 //
 // Output: Result: 16.0
 func Square(value float64) (float64, error) {
