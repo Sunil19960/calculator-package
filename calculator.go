@@ -42,7 +42,7 @@ func Add(firstVal, secondVal float64) (float64, error) {
 //	    fmt.Println("Result:", result)
 //	}
 //
-// “
+// ```
 //
 // Output: Result: 8.2
 func Subtract(firstVal, secondVal float64) (float64, error) {
