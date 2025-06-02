@@ -29,3 +29,7 @@ func Modulus(firstVal, secondVal float64) (float64, error) {
 	}
 	return float64(int(firstVal) % int(secondVal)), nil
 }
+
+func Square(value float64) (float64, error) {
+	return value * value, nil
+}
